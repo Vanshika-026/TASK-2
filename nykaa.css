@@ -1,57 +1,193 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+ 
 }
-.f-nav{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    background-color: rgb(238, 129, 183);
-    padding: 20px;
+.f-nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(247, 138, 192);
+  padding: 12px;
 }
-.feature{
-    display: flex;
 
+.feature {
+  display: flex;
+  align-content: end;
+  gap: 30px;
+  margin-right: 50px;
 }
-.feature .app{
-    display: flex;
-    margin-inline: 22px;
+.app {
+  display: flex;
+  gap: 3px;
 }
-.feature .app i{
-    margin-inline: 8px;
+
+#p-1 {
+  min-width: 55px;
 }
-.sec-nav{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding: 12px;
+#p-2 {
+  min-width: 100px;
 }
-.sec-nav ul li img{
-    width:8%;
-    margin-left: 30px;
+#p-3 {
+  min-width: 65px;
 }
-.sec-nav ul li a{
-    margin-inline: 22px;
+#p-4 {
+  min-width: 50px;
 }
-.sec-nav .inputs{
-    display: flex;
+
+.sec-nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 12px;
+  font-weight: 600;
 }
-.sec-nav .inputs button{
-    margin-inline: 22px;
+
+.sec-nav ul li img {
+  width: 8%;
+  margin-left: 60px;
 }
-.sec-nav .inputs input{
-    width:220px;
-    background-color: rgb(236, 231, 231);
-    border: none;
-    outline: none;
-    text-align: center;
-    font-size: 15px;
-    font-weight: 520;
-    color:rgba(73, 70, 70, 0.027);
+.sec-nav ul li a {
+  margin-inline: 22px;
+  color: rgb(51, 50, 50);
 }
-.sec-nav .inputs button{
-    width:80px;
-    background-color: rgb(231, 126, 226);
-    color: white;
-    font-size: 17px;
+.sec-nav .inputs {
+  display: flex;
+}
+.sec-nav .inputs button {
+  margin-inline: 22px;
+}
+.sec-nav .inputs input {
+  width: 220px;
+  background-color: rgb(236, 231, 231);
+  border: none;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 520;
+  color: rgba(73, 70, 70, 0.027);
+}
+.sec-nav .inputs button {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(230, 59, 144);
+  color: white;
+  font-size: 17px;
+  border-radius: 7px;
+  border: none;
+}
+.sec-nav .inputs .bag {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-right: 70px;
+
+  margin-top: 10px;
+  font-size: 20px;
+}
+.items {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  padding: 8px;
+  margin-left: 50px;
+}
+
+.items ul li a {
+  list-style: none;
+
+  margin-inline: 18px;
+  text-align: center;
+}
+.items ul li button {
+  width: 100px;
+  height: 34px;
+  background-color: rgb(230, 59, 144);
+  color: white;
+  font-size: 17px;
+  border-radius: 7px;
+  border: none;
+  margin-right: 70px;
+}
+.items ul li {
+  list-style: none;
+}
+.main-img img {
+  padding-top: 40px;
+  width: 100%;
+}
+.pink img {
+  width: 100%;
+}
+.pink h2 {
+  text-align: center;
+  padding: 14px;
+  margin-top: 40px;
+  font-weight: 1200;
+}
+.card {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.first-purchase h2 {
+  text-align: center;
+  padding: 14px;
+  margin-top: 40px;
+  font-weight: 1200;
+}
+.purchase img {
+  width: 100%;
+}
+
+.brand h2 {
+  text-align: center;
+  padding: 14px;
+  margin-top: 40px;
+  font-weight: 1200;
+}
+.topbrd {
+  display: flex;
+
+  justify-content: space-around;
+}
+.topbrd img {
+  margin-inline: 12px;
+  width: 20%;
+}
+
+.perfect-match h2 {
+  text-align: center;
+  padding: 14px;
+  margin-top: 40px;
+  font-weight: 1200;
+}
+.perfect img {
+  width: 100%;
+}
+.only-at-nykaa h2 {
+  text-align: center;
+  padding: 14px;
+  margin-top: 40px;
+  font-weight: 1200;
+}
+.only img {
+  width: 6%;
+  margin-inline: 10px;
+  margin-left: 65px;
+}
+.footer{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  background-color: rgb(129, 126, 126);
+  
+}
+.footer  ul li{
+   margin-top: 60px;
+  color:whitesmoke;
+  list-style: none;
+}
+.footer ul li a{
+  font-size: 15px;
+  color: whitesmoke;
 }
