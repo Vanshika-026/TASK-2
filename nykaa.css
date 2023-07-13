@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(238, 129, 183);
+    padding: 20px;
+}
+.feature{
+    display: flex;
+
+}
+.feature .app{
+    display: flex;
+    margin-inline: 22px;
+}
+.feature .app i{
+    margin-inline: 8px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 12px;
+}
+.sec-nav ul li img{
+    width:8%;
+    margin-left: 30px;
+}
+.sec-nav ul li a{
+    margin-inline: 22px;
+}
+.sec-nav .inputs{
+    display: flex;
+}
+.sec-nav .inputs button{
+    margin-inline: 22px;
+}
+.sec-nav .inputs input{
+    width:220px;
+    background-color: rgb(236, 231, 231);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 520;
+    color:rgba(73, 70, 70, 0.027);
+}
+.sec-nav .inputs button{
+    width:80px;
+    background-color: rgb(231, 126, 226);
+    color: white;
+    font-size: 17px;
+}
